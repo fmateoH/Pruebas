@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
     RespuestaJson respuesta;
 
    // private String streamdataioProxyPrefix = "https://streamdata.motwin.net/";
-
+   Button btnValidar3;
+   Button btnValidar2;
     private String streamdataioAppToken = "YOUR_TOKEN_HERE";
 
     private String myApiUrl = "YOUR_JSON_API_URL";
