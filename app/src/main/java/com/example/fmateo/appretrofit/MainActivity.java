@@ -76,36 +76,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void connect() {
-
-        // Create headers: Add the streamdata.io app token
-
-        Map<String, String> headers = new HashMap<>();
-
-        headers.put("X-Sd-Token", streamdataioAppToken);
-
-        EventSource eventSource = null;
-
-        // Create the EventSource with API URL & Streamdata.io authentication token
-
-/*        try {
-
-            eventSource = new EventSource(new URI(streamdataioProxyPrefix), new URI(myApiUrl), new SSEHandler(), headers);
-
-        } catch (URISyntaxException e) {
-
-            e.printStackTrace();
-
-        }
-*/
-
-
-        // Start data receiving
-
-        eventSource.connect();
-
-    }
-
 
 
     public void validar(){
