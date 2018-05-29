@@ -32,12 +32,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity {
 
     Button btnValidar;
-    EditText txtCraneId, txtDeviceid, code, device;
+    EditText code, device;
     TextView textResultado;
     Validate validacion;
     RespuestaJson respuesta;
-
-    private String streamdataioProxyPrefix = "https://streamdata.motwin.net/";
 
     private String streamdataioAppToken = "YOUR_TOKEN_HERE";
 
