@@ -131,10 +131,10 @@ public class MainActivity extends AppCompatActivity {
                     case 200:
                         System.out.println("entre");
                         Tokenizar respuesta = response.body();
-                      //  if(respuesta.isSuccess()){
+
                             textResultado.setText("Token: " +respuesta.getAccess_token().toString());
                         Globales.TOKEN = respuesta.getAccess_token().toString();
-                       // }
+
                 }
             }
 
