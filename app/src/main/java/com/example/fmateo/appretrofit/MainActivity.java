@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        validacion = new Validate();
 
         btnValidar = findViewById(R.id.validar);
         code = findViewById(R.id.validacion_code);
