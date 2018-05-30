@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
 
                             textResultado.setText("Token: " +respuesta.getAccess_token().toString());
                         Globales.TOKEN = respuesta.getAccess_token().toString();
-
+//Javier movio aqui
                 }
             }
 
