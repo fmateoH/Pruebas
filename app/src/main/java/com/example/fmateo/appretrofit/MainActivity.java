@@ -37,11 +37,6 @@ public class MainActivity extends AppCompatActivity {
     Validate validacion;
     RespuestaJson respuesta;
 
-
-
-
-    private String myApiUrl = "YOUR_JSON_API_URL";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
