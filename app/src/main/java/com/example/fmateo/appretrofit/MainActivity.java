@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-
+//algo
         EndPoint restClient = retrofit.create(EndPoint.class);
 
         Call<RespuestaJson> llamada = restClient.validarGrua(Globales.TOKEN, Globales.API_KEY, "application/json", validacion);
